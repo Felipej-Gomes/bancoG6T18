@@ -23,7 +23,7 @@ public class Conta {
 	public Conta(int numero, String cpf, boolean ativa) {
 		this.numero = numero;
 		this.cpf = cpf;
-		this.ativa = ativa;
+		this.ativa = ativa;	                                           
 	}
 	
 	// Encapsulamento
@@ -33,7 +33,7 @@ public class Conta {
 	}
 
 	public void setNumero(int numero) {
-		this.numero = numero;
+		this.numero = numero;                   
 	}
 
 	public String getCpf() {

@@ -16,7 +16,7 @@ public class Main {
 		// DECLARA VARIÁVEIS
 		
 		Scanner ler = new Scanner(System.in);
-		
+		double cpf;
 		double movimentos[] = new double[10];
 		char opcaoConta, opcaoMovimento, opcaoContinuar = '0';
 		int contador = 0, conta = 0, dia = 0;
@@ -25,8 +25,10 @@ public class Main {
 
 		// MOSTRA LOGO DO BANCO E MENU INICIAL
 		
-		System.out.printf("[BANCO G6T18]\n"
-				+ "[TECNOLOGIA PRA VOCÊ]\n\n");	
+		System.out.printf("[BANCO PACIFICO]\n"
+				+ "[ TRANQUILIDADE PRA VOCÊ]\n\n");	
+		System.out.println("Digite o seu CPF:");
+		cpf = ler.nextDouble();
 				
 		System.out.printf("MENU\n"
 				+ "1 - CONTA POUPANÇA\n"
